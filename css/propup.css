@@ -1,0 +1,125 @@
+/* body{
+  overflow-x: hidden;
+} */
+
+#mask {
+  position:absolute;
+  width: 100% !important;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#26262c;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  /* height:850px; */
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 5px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:800px; 
+  /* height: 63%; */
+  padding: 5px;
+  background-color:#ffffff;
+  font-size: 15pt;
+}
+
+.sh-hm-pop
+{
+  top: 20% !important;
+  left:24% !important;
+  display:block;
+}
+
+.sh-col-img
+{
+  float:right;
+   margin-right: -25px; 
+   margin-top: -25px;
+}
+
+.sh-pop-style
+{
+  width: 2478px; 
+  font-size: 32pt; 
+  color:white; 
+  height: 1202px; 
+  display: none; 
+  opacity: 0.4;
+}
+
+/* .agree:hover{
+  background-color: #D1D1D1;
+} */
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	color: red;
+}
+
+@media screen and (max-width:1140px) and (min-width:992px)
+{
+  #boxes #dialog
+  {
+    width: 600px;
+  }
+
+  #boxes .window
+  {
+    left: 20% !important;
+    top: 24.5% !important;
+  }
+}
+
+@media screen and (max-width:991px) and (min-width:768px)
+{
+  #boxes #dialog
+  {
+    width: 480px;
+  }
+
+  #boxes .window
+  {
+    left: 20% !important;
+    top: 30% !important;
+  }
+}
+
+@media screen and (max-width:767px) and (min-width:576px)
+{
+
+  #boxes #dialog
+  {
+    width: 270px;
+  }
+
+  #boxes .window
+  {
+    left: 27% !important;
+    top: 14% !important;
+  }
+}
+
+@media screen and (max-width:575px) and (min-width:360px)
+{
+
+  #boxes #dialog
+  {
+    width: 200px;
+  }
+
+  #boxes .window
+  {
+    left: 23% !important;
+    top: 24% !important;
+  }
+}

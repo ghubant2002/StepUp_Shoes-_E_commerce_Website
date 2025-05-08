@@ -1,0 +1,655 @@
+@font-face {
+    font-family: "Oxygen";
+    src: url(../webfonts/Oxygen-Regular.ttf);
+    src: url(../webfonts/Oxygen-Regular.woff2);
+}
+
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 50px;
+	/* margin-top:50px; */
+    background: #eff8ff;
+  }
+  
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .featureIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .featureTitle {
+    font-family: "Oxygen";
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px;
+    color:#3488cd;
+  }
+
+  .featureDescription {
+    color: #3488cd;
+    width: 60%;
+    height: 100px;
+    letter-spacing: 0.5px;
+  }
+
+/* footer css */
+/* .footer-logo{
+	margin-left: 127px;
+} */
+
+.ft-opt
+{
+    margin-top: 1.5rem;
+}
+
+.shoe-ft-font
+{
+    font-family: "Oxygen";
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+}
+
+.sh-ft-list{
+    list-style: none;
+    line-height: 36px;
+}
+
+.ft-col-margin{
+    margin-left: -40px;
+    margin-right: 40px;
+}
+
+.foot-img
+{
+    width:300px;
+    height: 200px;
+    margin-top: 14px;
+    border-radius: 20px;
+}
+
+.shoe-ft-font2
+{
+    font-family: "Oxygen";
+    letter-spacing: 1px;
+}
+
+.footer-section {
+    padding: 40px;
+    padding-left: 0;
+    padding-right: 50px;
+	font-family: "Oxygen";
+	overflow: hidden;
+}
+
+.ft-icon2
+{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    color:#012037;
+    background: white;
+    padding:9px 11px;
+}
+
+.ft-icon3
+{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    color:#012037;
+    background: white;
+    padding: 9px 9.5px;
+    margin-left: 1rem;
+}
+
+.ft-icon4
+{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    color:#012037;
+    background: white;
+    padding: 9px;
+    margin-left: 1rem;
+}
+
+.ft-soc
+{
+    margin-left:70px;
+}
+
+.f-icon
+{
+
+    font-size: 20px;
+}
+
+.ftco-white-icon
+{
+    background: #ffffff!important;
+    border: 1px solid red;
+    color: red!important; 
+}
+
+.sh-ft-cap
+{
+    padding-right: 3rem;
+}
+
+.copyright
+{
+    position: relative;
+    padding-top: 3rem;
+}
+
+.copyright::before{ 
+    width: 36%; 
+    height: 1px; 
+    background: white;
+    content: "";
+    position: absolute;
+    top: 62px;
+    left: -15px;
+}
+
+.copyright::after{ 
+    width: 36%; 
+    height: 1px; 
+    background: white;
+    content: "";
+    position: absolute;
+    top: 62px;
+    right: -15px;
+}
+.icon-arrow{position: relative;}
+.icon-arrow::after
+{
+    font: var(--fa-font-solid);
+    content: '\f178';
+    position: absolute;
+    top: 5px;
+    right: 71%;
+}
+
+/*---------Responsive Design for Desktop----------------*/
+
+@media screen and (max-width:1140px) and (min-width:992px)
+{
+    .footer-logo {
+        margin-left: 3.4px;
+      }
+
+    .featureTitle{
+        font-size: 1.1rem;
+    }
+
+    .featureDescription {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .features{
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .footer-section{
+        padding:30px;
+    }
+
+    .ft-soc
+    {
+        margin-left: 0;
+    }
+
+    /* .footer-logo {
+        margin-left: 60px;
+    } */
+
+    .foot-img
+    {
+        width:200px;
+        height: 150px;
+        border-radius: 14px;
+        margin-top: 0.5rem;
+    }
+
+    .ft-col-margin {
+        margin-left: -30px;
+        margin-right: 20px;
+    }
+
+    .copyright::before
+    {
+        width:30.5%;
+    }
+
+    .copyright::after
+    {
+        width:30.5%;
+    }
+
+    .col-gap
+    {
+        margin-top: -40px;
+    }
+}
+
+/*---------Responsive Design for Tab----------------*/
+
+@media screen and (max-width:991px) and (min-width:768px)
+{
+    .featureTitle{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .featureDescription{
+        width: 87%;
+        font-size: 13px;
+    }
+
+    .features{
+        margin-top: 0;
+        padding-top: 40px;
+        padding-bottom: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .featureIcon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-section{
+        padding: 40px 30px;
+    }
+
+    .ft-soc
+    {
+        margin-left: -1rem;
+    }
+
+    .footer-logo {
+        margin-left: -20px;
+    }
+
+    .ft-icon2
+    {
+        width: 35px;
+        height: 35px;
+        padding: 5.5px 12px;
+    }
+
+    .ft-icon3
+    {
+        width: 35px;
+        height: 35px;
+        padding: 5.5px 10px;
+        margin-left: 0.8rem;
+    }
+
+    .ft-icon4
+    {
+        width: 35px;
+        height: 35px;
+        padding: 5.5px 10px;
+        margin-left: 0.8rem;
+    }
+
+    .f-icon{
+        font-size: 17px;
+    }
+
+    .foot-img
+    {
+        width:170px;
+        height: 150px;
+        margin-top: 10px;
+        border-radius: 14px;
+    }
+
+    .ft-col-margin {
+        margin-left: -30px;
+        margin-right: 20px;
+    }
+
+    .copyright
+    {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    .copyright::before
+    {
+        width:25.5%;
+        top:58px;
+    }
+
+    .copyright::after
+    {
+        width:25.5%;
+        top:58px;
+    }
+
+    .shoe-ft-font
+    {
+        font-size: 1.1rem;
+    }
+
+    .sh-ft-list{
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    .shoe-ft-font2{
+        font-size: 1.2rem;
+    }
+
+    .sh-ft-cap
+    {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        padding-right: 2rem;
+    }
+
+    .sh-ft-lcol{
+        margin-left: -10px;
+    }
+
+    .col-gap
+    {
+        margin-top: -60px;
+    }
+}
+
+
+/*---------Responsive Design for Smartphone----------------*/
+
+@media screen and (max-width:767px) and (min-width:576px)
+{
+    .featureTitle{
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .featureDescription{
+        font-size: 14px;
+    }
+
+    .features{
+        margin-top: 0;
+        padding-top: 40px;
+        padding-bottom: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .featureIcon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-section{
+        padding: 40px 30px;
+    }
+
+    .footer-logo{
+        width: 18%;
+    }
+
+    .ft-soc
+    {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .ft-opt
+    {
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+
+    .ft-col-spec
+    {
+        justify-content: center;
+    }
+
+    .ft-icon2
+    {
+        width: 35px;
+        height: 35px;
+        padding: 5.5px 12px;
+    }
+
+    .ft-icon3
+    {
+        width: 35px;
+        height: 35px;
+        padding: 5.5px 10px;
+        margin-left: 0.8rem;
+    }
+
+    .ft-icon4
+    {
+        width: 35px;
+        height: 35px;
+        padding: 5.5px 10px;
+        margin-left: 0.8rem;
+    }
+
+    .f-icon{
+        font-size: 17px;
+    }
+
+    .foot-img
+    {
+        width: 210px;
+        height: 160px;
+        margin-top: 10px;
+        border-radius: 14px;
+    }
+
+    .ft-col-margin {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 2rem;
+    }
+
+    .copyright
+    {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .copyright::before
+    {
+        width: 21%;
+        top:58px;
+    }
+
+    .copyright::after
+    {
+        width: 21%;
+        top:58px;
+    }
+
+    .shoe-ft-font
+    {
+        font-size: 1.2rem;
+    }
+
+    .sh-ft-list{
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    .shoe-ft-font2{
+        font-size: 1.2rem;
+        margin-top: 3.2rem;
+    }
+
+    .sh-ft-cap
+    {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        padding-right: 7rem;
+        padding-left: 7rem;
+    }
+
+    .sh-ft-lcol{
+        margin-left: -10px;
+    }
+    .col-gap
+    {
+	    margin-top: -100px;
+    }   
+}
+
+
+@media screen and (max-width:575px) and (min-width:360px)
+{
+    .featureTitle{
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .featureDescription{
+        font-size: 14px;
+    }
+
+    .features{
+        margin-top: 0;
+        padding-top: 40px;
+        padding-bottom: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .featureIcon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-section{
+        padding: 40px 30px;
+    }
+
+    .footer-logo{
+        width: 25%;
+    }
+
+    .ft-soc
+    {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .ft-opt
+    {
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+
+    .ft-col-spec
+    {
+        justify-content: center;
+    }
+
+    .ft-icon2
+    {
+        width: 35px;
+        height: 35px;
+        padding: 5.5px 12px;
+    }
+
+    .ft-icon3
+    {
+        width: 35px;
+        height: 35px;
+        padding: 5.5px 10px;
+        margin-left: 0.8rem;
+    }
+
+    .ft-icon4
+    {
+        width: 35px;
+        height: 35px;
+        padding: 5.5px 10px;
+        margin-left: 0.8rem;
+    }
+
+    .f-icon{
+        font-size: 17px;
+    }
+
+    .foot-img
+    {
+        width: 210px;
+        height: 160px;
+        margin-top: 10px;
+        border-radius: 14px;
+    }
+
+    .ft-col-margin {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 2rem;
+    }
+
+    .copyright
+    {
+        font-size: 11px;
+        letter-spacing: 0.5px;
+    }
+
+    .copyright::before
+    {
+        display: none;
+    }
+
+    .copyright::after
+    {
+        display: none;
+    }
+
+    .shoe-ft-font
+    {
+        font-size: 1.2rem;
+    }
+
+    .sh-ft-list{
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    .shoe-ft-font2{
+        font-size: 1.2rem;
+        margin-top: 3.2rem;
+    }
+
+    .sh-ft-cap
+    {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+
+    .sh-ft-lcol{
+        margin-left: -10px;
+    }
+}
