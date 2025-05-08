@@ -962,6 +962,12 @@ header .icons a:hover{
   .wb-para {
     font-size: 13px;
   }
+	
+.pr-ban-gap
+{
+  margin-top:5rem;
+}
+	
 
   .wb-head3 {
     font-size: 18px;
